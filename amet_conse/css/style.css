@@ -1,0 +1,459 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+     content: " ";
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     clear: both;
+     height: 0;
+}
+
+.container{
+    width: 1230px;
+    margin: 0 auto;
+}
+
+
+header{
+    background-color: #21af8d;
+}
+
+header .logo{
+    float: left;
+    margin-top: 21px;
+    margin-bottom: 25px;
+}
+
+header .logo a{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+header ul{
+    float: right;
+    margin: 18px 0;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+
+.home{
+    padding-top: 40px;
+    background: #273242;
+}
+
+.home nav{
+    background-color: #52647a;
+}
+
+.home nav ul{
+    text-align: center;
+}
+
+.home nav ul li{
+    display: inline-block;
+    margin: 0 -2px;
+}
+
+.home nav ul li a{
+    border-left: 1px solid #4c5c71;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 34px 36px;
+}
+
+.home nav ul li:last-child a{
+    border-right: 1px solid #4c5c71;
+}
+
+
+.home .banner_content{
+    background: url("../img/banner.png");
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 255px;
+}
+
+.home .banner_content h2{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.home .banner_content h5{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.home .banner_content p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.home .banner_content a{
+    display: inline-block;
+    color: #21af8d;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 5px 4px 4px 5px;
+    background-color: #ffffff;
+    padding: 9px 12px;
+    margin-top: 15px;
+}
+
+
+.egestas{
+    background-color: #38475a;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.egestas h3{
+    color: #21af8d;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.egestas >p{
+    color: #7c8b9e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 39px;
+}
+
+.egestas >p:after {
+    content: '';
+    width: 58px;
+    height: 1px;
+    background: #7c8b9e;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -29px;
+}
+
+.egestas ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.egestas ul li:last-child{
+    padding-right: 0;
+}
+
+.egestas ul li:first-child{
+    padding-left: 0;
+}
+
+.egestas ul li img{
+    margin-bottom: 20px;
+}
+
+.egestas ul li h4{
+    color: #85dbc2;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.egestas ul li p{
+    color: #7c8b9e;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.list{
+    background-color: #f7f7f7;
+    padding: 60px 30px;
+}
+
+.list ul li{
+    display: inline-block;
+    width: 355px;
+    text-align: left;
+    margin-right: 48px;
+}
+ .list ul li:last-child {
+    margin-right: 0;
+ }
+
+.list ul li .title{
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 28px;
+}
+
+.list ul li .title img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.list ul li .title h5{
+    color: #465568;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.list ul li .title span{
+    color: #21af8d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.list ul li p{
+    color: #8d8c8c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 31px;
+}
+
+.list ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    border-radius: 4px 5px 5px 4px;
+    background-color: #21af8d;
+    padding: 4px 26px 2px 10px;
+}
+
+.list ul li a:after{
+    content: '';
+    position: absolute;
+    top: 9px;
+    right: 6px;
+    width: 12px;
+    height: 13px;
+    background: url(../img/arrows.png);
+}
+.contact {
+    background: #374659;
+    padding: 60px 30px;
+}
+.contact .reviews {
+    width:650px;
+    float: left;
+}
+.contact .reviews .reviews-item{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #495b72;
+    padding-left: 200px;
+    position: relative;
+}
+.contact .reviews .reviews-item h5 {
+color: #21af8d;
+font-family: "Fjalla One";
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+text-transform: uppercase;
+}
+.contact .reviews .reviews-item p {
+color: #7c8b9e;
+font-family: "Source Sans Pro";
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+padding-bottom: 36px;
+}
+.contact .reviews .reviews-item span {
+color: #21af8d;
+font-family: "Source Sans Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.reviews-item a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    border-radius: 4px 5px 5px 4px;
+    background-color: #21af8d;
+    padding: 4px 26px 2px 10px;
+}
+.reviews-item a:after{
+    content: '';
+    position: absolute;
+    top: 9px;
+    right: 6px;
+    width: 12px;
+    height: 13px;
+    background: url(../img/arrows.png);
+}
+.contact .reviews .reviews-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact .reviews .reviews-item:last-child{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.contact .form-content{
+    width: 370px;
+    float: right;
+}
+.contact .form-content .title {
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 28px;
+}
+.contact .form-content .title h5 {
+color: #21af8d;
+font-family: "Fjalla One";
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+text-transform: uppercase;
+}
+.contact .form-content .title span {
+color: #21af8d;
+font-family: "Source Sans Pro";
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.contact .form-content .title img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact .form-content form input {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid #415166;
+    background-color: #324052;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+.contact .form-content textarea{
+    width: 370px;
+    height: 111px;
+    border-radius: 5px;
+    border: 1px solid #415166;
+    background-color: #324052;
+    margin-bottom: 20px;
+    padding: 17px 10px;
+}
+.contact .form-content form input[type="submit"]{
+    width: auto;
+    margin-bottom: 0;
+    height: 32px;
+    background-color: #21af8d;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 0 11px;
+}
+footer .linc {
+    background: #21af8d;
+}
+footer .copirait {
+    background-color: #038b73;
+}
+.linc ul {
+    display: inline-block;
+    margin-right: 30px;
+}
+.linc ul:first-child {
+    margin-left: 0px;
+}
+.linc ul:last-child {
+    margin-right: 0px;
+}
+.linc {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 72px;
+}
+.linc ul li {
+    text-align: left;
+    width: 170px;
+    border-bottom: 1px solid #54c1a7;
+}
+.linc ul li h6 {
+color: #ffffff;
+font-family: "Fjalla One";
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+text-transform: uppercase;
+margin-bottom: 32px;
+}
+.linc ul li a {
+color: #ffffff;
+font-family: "Source Sans Pro";
+font-size: 14px;
+font-weight: 400;
+line-height: 36px;
+padding-bottom: 11px;
+}
+.linc ul li:last-child {
+    border-bottom: none;
+}
+.linc ul li:first-child {
+    border-bottom: none;
+}
+.copirait {
+text-align: left;
+color: #ffffff;
+font-family: "Source Sans Pro";
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+padding: 40px 0px;
+}
+
+
+
+
+
